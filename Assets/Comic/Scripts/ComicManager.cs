@@ -32,12 +32,17 @@ public class ComicManager : MonoBehaviour
 
     public Viewer3D viewer3D;
 
+    bool canInteract = false;
+
     void Start()
     {
         welcomePanel.SetActive(true);
         comicPanel.SetActive(false);
         if (PlayerPrefs.HasKey("currentPage"))
         {
+            closestId = PlayerPrefs.GetInt("currentPage");
+            initialId = PlayerPrefs.GetInt("currentPage");
+
             scrollRect.content.anchoredPosition = new Vector2(PlayerPrefs.GetInt("currentPage") * -800f, 0f);
             PlayerPrefs.DeleteKey("currentPage");
 
@@ -47,6 +52,8 @@ public class ComicManager : MonoBehaviour
             Show3DViewer(true);
             
         }
+
+        canInteract = true;
     }
 
     public void JumpToPage(int id)
@@ -69,6 +76,7 @@ public class ComicManager : MonoBehaviour
 
     void Update()
     {
+        if (!canInteract) return;
 
         if (!comicCanvas.activeSelf || !comicPanel.activeSelf) return;
 
