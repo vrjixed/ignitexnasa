@@ -33,6 +33,7 @@ public class ComicManager : MonoBehaviour
     public Viewer3D viewer3D;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     bool canInteract = false;
 
     public GameObject shieldGame;
@@ -41,6 +42,8 @@ public class ComicManager : MonoBehaviour
     public GameObject venusGame;
     public GameObject venusGameUI;
 
+=======
+>>>>>>> parent of c1be273 (Comic strips updated)
 =======
 >>>>>>> parent of c1be273 (Comic strips updated)
     void Start()

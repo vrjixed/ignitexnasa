@@ -1,8 +1,12 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Comic/Animations/ProbeVenus.anim.meta
 guid: 083359c7f3acf413a8927498f739eaf8
+========
+guid: 5a672cb61ef32734b9c28539c9c42494
+>>>>>>>> parent of c1be273 (Comic strips updated):Assets/Real Stars Skybox/StarSkybox04/CubemapStars.cubemap.meta
 NativeFormatImporter:
   externalObjects: {}
-  mainObjectFileID: 7400000
+  mainObjectFileID: 8900000
   userData: 
   assetBundleName: 
   assetBundleVariant: 
