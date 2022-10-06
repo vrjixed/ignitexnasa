@@ -9,3 +9,4 @@ C#<br />
 AR Foundation<br />
 iOS: ARKit<br />
 Android: ARCore<br />
+Supported platforms: Android, iOS
