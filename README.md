@@ -1,8 +1,8 @@
-# IgniteX NASA Space Apps Challenge
-
-Technical Information:
-Developed with Unity Game Engine
-C#
-AR Foundation
-iOS: ARKit
-Android: ARCore
+# IgniteX NASA Space Apps Challenge<br />
+<br />
+Technical Information:<br />
+Developed with Unity Game Engine<br />
+C#<br />
+AR Foundation<br />
+iOS: ARKit<br />
+Android: ARCore<br />
