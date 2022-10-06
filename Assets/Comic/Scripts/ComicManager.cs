@@ -34,6 +34,12 @@ public class ComicManager : MonoBehaviour
 
     bool canInteract = false;
 
+    public GameObject shieldGame;
+    public GameObject shieldGameUI;
+
+    public GameObject venusGame;
+    public GameObject venusGameUI;
+
     void Start()
     {
         welcomePanel.SetActive(true);
@@ -144,5 +150,19 @@ public class ComicManager : MonoBehaviour
             }
             
         }
+    }
+
+    public void ShowShieldGame(bool b)
+    {
+        comicPanel.SetActive(!b);
+        shieldGameUI.SetActive(b);
+        shieldGame.SetActive(b);
+    }
+
+    public void ShowVenusGame(bool b)
+    {
+        comicPanel.SetActive(!b);
+        venusGameUI.SetActive(b);
+        venusGame.SetActive(b);
     }
 }
